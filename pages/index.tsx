@@ -19,12 +19,12 @@ import CustomButton from '../components/layouts/UI/customButton/customButton'
 const Landing: NextPage = () => {
   const theme = useTheme()
   const colorMode = React.useContext(ColorModeContext)
-  const [isNavigate, setNavigation] = React.useState(false)
+  const [isNavigate, setNavigation] = React.useState('')
 
   const handleNavigationClick = () => {
     setNavigation(() => (window.location.href = '#'))
   }
-  const handleSocialLinks = (type) => {
+  const handleSocialLinks = (type: string) => {
     switch (type) {
       case 'twitter':
         window.open('https://twitter.com/BLBprotocol/', '_blank')
