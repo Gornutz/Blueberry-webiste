@@ -108,7 +108,7 @@ const Landing: NextPage = () => {
             className={styles.desc}
             sx={{ color: 'primary.contrastText' }}
           >
-            Automated, boosted yield strategies for Uniswap v3.
+            Automated, boosted LP strategies for Uniswap v3
           </Typography>
         </Box>
       </Box>
@@ -176,7 +176,7 @@ const Landing: NextPage = () => {
               lineHeight: '26px',
             }}
           >
-            Juicy Yield
+            Boosted Positions
           </Typography>
           <Box sx={{ display: 'flex', justifyContent: 'center' }}>
             <Typography
@@ -185,10 +185,10 @@ const Landing: NextPage = () => {
                 fontSize: '18px',
                 fontWeight: '400',
                 lineHeight: '26px',
-                maxWidth: '230px',
+                maxWidth: '240px',
               }}
             >
-              Multiply your ROI with up to 3x leverage
+              Boost your potential earnings with up to 3x leverage
             </Typography>
           </Box>
         </Grid>
@@ -280,7 +280,7 @@ const Landing: NextPage = () => {
           fontWeight: '500',
         }}
       >
-        A comfy combination of tools to support your position
+        Liquidity that works for the community, not the market makers
       </Box>
 
       <Grid
