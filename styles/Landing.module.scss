@@ -1,44 +1,28 @@
 .container {
     // background-color: #fff;
     padding: 0px 120px;
-
-    .banner {
-        padding: 0px 213px;
-        text-align: center;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-
-        .content {
-            padding-top: 80px;
-
-            .desc {
-                margin-top: 80px;
-                font-family: 'Heebo';
-                font-size: 30px;
-                font-weight: 500;
-                line-height: 44px;
-
-                @media screen and (min-width: '320px') and (max-width: '768px') {
-                    font-size: 14px;
-                    line-height: 18px;
-                    margin-top: 20px;
-                    padding: 10px 5px;
-                }
-            }
-            .logoText {
-                @media screen and (min-width: '320px') and (max-width: '768px') {
-                    min-width: 80% !important;
-                }
-            }
-        }
-
-        @media screen and (min-width: '320px') and (max-width: '1440px'){
-            padding: 0px 0px;
-        }
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 
     @media screen and (min-width: '320px') and (max-width: '1024px'){
         padding: 0px;
+    }
+    .boxEnter {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        .btnEnter {
+            background: linear-gradient(42.73deg, #017d91 -79.94%, #05ac5c 159.12%) !important;
+            border-radius: 14px !important;
+            color: white !important;
+            padding: 0.6rem 1.4rem !important;
+            text-transform: none !important;
+            font-weight: 500 !important;
+            text-align: center;
+            font-size: 1rem;
+            line-height: 1.75;
+        }
     }
 }
