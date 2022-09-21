@@ -53,7 +53,7 @@ const Home: NextPage = () => {
       >
         <CustomButton
           handleButtonClick={handleNavigationClick}
-          title="Start Earning Now"
+          title="Coming Soon"
         />
         <IconButton
           sx={{ ml: 1 }}

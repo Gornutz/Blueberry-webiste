@@ -21,16 +21,26 @@ const Landing: NextPage = () => {
 
   return (
     <Box className={styles.container} sx={{ backgroundColor: 'primary.main' }}>
-      <Link href={"/verification"}>
-        <a>
-          <Image
-            src="/logo.svg"
-            alt=""
-            width={774}
-            height={350}
-          />
-        </a>
-      </Link>
+      <Box>
+        <Box>
+          <Link href={"/verification"}>
+            <a>
+              <Image
+                src="/logo.svg"
+                alt=""
+                width={774}
+                height={350}
+              />
+            </a>
+          </Link>
+        </Box>
+
+        <Box className={styles.boxEnter}>
+          <Link href={"/home"}>
+            <a className={styles.btnEnter}>Enter</a>
+          </Link>
+        </Box>
+      </Box>
     </Box>
   )
 }

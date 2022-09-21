@@ -9,4 +9,21 @@
     @media screen and (min-width: '320px') and (max-width: '1024px'){
         padding: 0px;
     }
+    .boxEnter {
+        display: flex;
+        justify-content: center;
+        margin-top: 2rem;
+        .btnEnter {
+            background: linear-gradient(42.73deg, #017d91 -79.94%, #05ac5c 159.12%) !important;
+            border-radius: 14px !important;
+            color: white !important;
+            padding: 0.6rem 1.4rem !important;
+            text-transform: none !important;
+            font-weight: 500 !important;
+            min-width: 200px;
+            text-align: center;
+            font-size: 0.875rem;
+            line-height: 1.75;
+        }
+    }
 }

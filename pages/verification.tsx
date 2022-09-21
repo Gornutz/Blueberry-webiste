@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import type { NextPage } from "next";
 import Image from 'next/image'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
 import styles from "../styles/Verification.module.scss"
 import { toast } from 'react-toastify'
@@ -69,6 +70,9 @@ const Verification: NextPage = () => {
   }
   return (
     <div className={styles.container}>
+      <Link href={"/"}>
+        <a className={styles.btnTakeHome}>Take me Home</a>
+      </Link>
       <div className='flex justify-center'>
         <img
           src={"/logo.svg"}
