@@ -70,7 +70,7 @@ const Verification: NextPage = () => {
   }
   return (
     <div className={styles.container}>
-      <Link href={"/"}>
+      <Link href={"/home"}>
         <a className={styles.btnTakeHome}>Take me Home</a>
       </Link>
       <div className='flex justify-center'>

@@ -37,7 +37,7 @@ const Landing: NextPage = () => {
 
         <Box className={styles.boxEnter}>
           <Link href={"/home"}>
-            <a className={styles.btnEnter}>Enter</a>
+            <a className={styles.btnEnter}>ENTER</a>
           </Link>
         </Box>
       </Box>
