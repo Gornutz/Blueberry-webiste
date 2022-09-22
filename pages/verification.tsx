@@ -80,20 +80,12 @@ const Verification: NextPage = () => {
           className={styles.logo}
         />
       </div>
-      
-      {/* <h1 className={styles.title}>Settlers of Blueberry</h1> */}
 
       <h3 className={styles.title1}>
         Congratulations anon. You found Blueberry while still in stealth mode.
         Claim your spot by completing the steps below. And remember--the early
         bird gets the blueberries.
       </h3>
-
-      {/* <p className={styles.alignLeft}>
-        <span className="font-semibold">
-          The goals of Settlers are as follows:
-        </span>
-      </p> */}
 
       <ul className={styles.alignLeft}>
         <li className="mx-[30px] my-[10px]">
