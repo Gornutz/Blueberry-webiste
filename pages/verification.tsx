@@ -63,9 +63,9 @@ const Verification: NextPage = () => {
     if (res.success) {
       window.localStorage.setItem("verifyStatus", "true")
       router.push("/home")
-      toast.success("Submit Success!")
+      toast.success("Submission Success!")
     } else {
-      toast.error("Submit Error!")
+      toast.error("Submission Error!")
     }
   }
   return (
