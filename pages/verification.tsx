@@ -53,7 +53,7 @@ const Verification: NextPage = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "1110f8e5-d278-4698-aeca-0c0b52c9a0c4");
+    formData.append("access_key", "9ef9f0c7-b617-4f77-ba13-57e7f51c88b3");
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
