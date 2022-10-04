@@ -123,11 +123,11 @@ const Verification: NextPage = () => {
         Please do not change twitter handle and wallet address after generating
         verification tweet.
         <div className={styles.field}>
-          <label>twitter_handle</label>
+          <label>Twitter handle</label>
           <input
             type="text"
             required
-            placeholder="ninja"
+            placeholder="@blbprotocol"
             name="psuedoName"
             id="psuedoName"
             onChange={(e) => setPsuedoName(e.target.value)}
@@ -136,7 +136,7 @@ const Verification: NextPage = () => {
         </div>
 
         <div className={styles.field}>
-          <label>wallet_address</label>
+          <label>Wallet address</label>
 
           <input
             type="text"
@@ -156,7 +156,7 @@ const Verification: NextPage = () => {
           Generate verification tweet
         </button>
         <div className={`${styles.field} mt-[2rem]`}>
-          <label>verification_url</label>
+          <label>Verification url</label>
 
           <input
             type="text"
