@@ -136,17 +136,17 @@ const Verification: NextPage = () => {
             value={psuedoName}
           />
         </div>
-        
         <div className={styles.field}>
           <label>Discord Username</label>
           <input 
-          type="text"
-          requiredplaceholder="Name#000"
-          name="discordName"
-          id="discordName"
-          onChange={(e)} => setDiscordName(e.target.value)
-          value={discordName}
-          />
+            type="text"
+            required
+            placeholder="Name#0000"
+            name="discordName"
+            id="discordName"
+            onChange={(e) => setDiscordName(e.target.value)}
+            value={discordName}
+            />
         </div>
         <div className={styles.field}>
           <label>Wallet address</label>
