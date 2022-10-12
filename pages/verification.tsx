@@ -9,6 +9,7 @@ import { toast } from 'react-toastify'
 const Verification: NextPage = () => {
   const router = useRouter()
   const [psuedoName, setPsuedoName] = useState('')
+  const [discordName, setDiscordName] = useState('')
   const [walletAddress, setWalletAddress] = useState('')
   const [verifyUrl, setVerifyUrl] = useState('')
   const [showError, setShowError] = useState(false)
@@ -113,6 +114,7 @@ const Verification: NextPage = () => {
           {showError && (
             <>
               {psuedoName == "" && <p>Please enter a twitter handle.</p>}
+              {discordName == "" && <p>Please enter a discord name</p>}
               {walletAddress == "" && <p>Please enter a wallet address.</p>}
               {verifyUrl == "" && (
                 <p>Please enter the tweet url for verification.</p>
@@ -134,7 +136,18 @@ const Verification: NextPage = () => {
             value={psuedoName}
           />
         </div>
-
+        <div className={styles.field}>
+          <label>Discord Username</label>
+          <input 
+            type="text"
+            required
+            placeholder="Name#0000"
+            name="discordName"
+            id="discordName"
+            onChange={(e) => setDiscordName(e.target.value)}
+            value={discordName}
+            />
+        </div>
         <div className={styles.field}>
           <label>Wallet address</label>
 
