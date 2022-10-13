@@ -23,7 +23,7 @@ const Landing: NextPage = () => {
     <Box className={styles.container} sx={{ backgroundColor: 'primary.main' }}>
       <Box>
         <Box>
-          <Link href={"/verification"}>
+          <Link href={"/home"}>
             <a>
               <Image
                 src="/logo.svg"
