@@ -84,7 +84,7 @@ const Verification: NextPage = () => {
 
       <h3 className={styles.title1}>
         Congratulations anon. You found Blueberry while still in stealth mode.
-        Join our Scoail Media to be in the loop. 
+        Join our Social Media pages to be in the loop. 
       </h3>
 
       <ul className={styles.alignLeft}>
