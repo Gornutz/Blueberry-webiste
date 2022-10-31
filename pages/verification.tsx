@@ -91,7 +91,7 @@ const Verification: NextPage = () => {
         <li className="mx-[30px] my-[10px]">
           Join{" "}
           <a
-            href="https://discord.com/invite/VJAPVjy5uk"
+            href="https://discord.gg/blueberry"
             className="text-[#00e186]"
           >
             Discord
