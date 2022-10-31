@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         window.open(' https://github.com/Blueberryfi', '_blank')
         break
       case 'discord':
-        window.open('https://discord.gg/VJAPVjy5uk', '_blank')
+        window.open('https://discord.gg/blueberry', '_blank')
         break
       case 'medium':
         window.open('https://medium.com/@blueberryprotocol', '_blank')
