@@ -16,7 +16,7 @@ const Footer = () => {
       <Typography sx={{
         color: '#fff',
         marginTop: '22px',
-        fontFamily: 'Heebo'
+        fontFamily: 'Heebo',
       }}>
         Copyright © 2022 Blueberry
       </Typography>
@@ -24,11 +24,15 @@ const Footer = () => {
         collor: '#fff',
         marginTop: '22px',
         fontFamily: 'Heebo',
-        paddingright: '22px',
       }}>
         <a target="_blank" href="https://drive.google.com/file/d/1L0E4Skzcal2l0FkvMDUub6KgEU0Daj6h/view">Policies</a>
-
-        <a target="_blank" href="https://drive.google.com/file/d/1pzaIPK1tGS8rIv99Knr67C4yb-2wLmnJ/view?usp=share_link">Terms of Service</a>
+      </Typography>
+      <Typography sx={{
+        collor: '#fff',
+        marginTop: '22px',
+        fontFamily: 'Heebo',
+      }}>        
+      <a target="_blank" href="https://drive.google.com/file/d/1pzaIPK1tGS8rIv99Knr67C4yb-2wLmnJ/view?usp=share_link">Terms of Service</a>
       </Typography>
     </Box>
   );
